@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap");
+
+body {
+  min-width: 1170px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+/* Фоновое изаображение */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(20, 0, 0, 0.5)),
+    url(https://d329jirxh7znrd.cloudfront.net/bistro/wp-content/uploads/sites/376/2020/02/home-hero.jpg);
+  background-repeat: no-repeat;
+  height: 900px;
+  object-fit: contain;
+}
+
+.header__container {
+  width: 1000px;
+}
+/* Логотип в Headere */
+.header__logo {
+  display: block;
+  position: relative;
+  top: 35px;
+  left: 150px;
+}
+
+.header__menu {
+  margin-left: 300px;
+  padding: 50px;
+  position: relative;
+  top: -50px;
+}
+
+.header__menu a {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 15px;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #eee;
+}
+.header__menu a:hover {
+  color: #ce7a60;
+}
+
+.sps a {
+  color: #ce7a60;
+  font-weight: bold;
+}
+
+.header__menu li {
+  display: inline;
+}
+/* первая кнопка */
+.row button {
+  margin-left: 950px;
+  background-color: transparent;
+  cursor: pointer;
+  position: relative;
+  top: -148px;
+  border: 1px solid;
+  border-color: #ce7a60;
+  width: 22%;
+  padding: 15px 25px 15px 42px;
+}
+
+.row a {
+  text-decoration: none;
+  color: #ce7a60;
+  font-size: 17px;
+  border: none;
+}
+
+.row button:hover {
+  background-color: white;
+}
+
+i {
+  color: #ce7a60;
+  padding-right: 15px;
+}
+
+.header__zgs {
+  margin-left: 550px;
+  margin-top: 70px;
+  color: #eee;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.header__zgss {
+  padding-top: 50px;
+  font-size: 28px;
+  display: inline;
+  position: absolute;
+  left: 340px;
+  color: #fff;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.button1 {
+  margin-left: 230px;
+  margin-top: 60px;
+  padding: 22px 39px 22px 39px;
+  font-size: 15px;
+  background-color: #ce7a60;
+  border: 0px solid;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button1 a {
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+
+.butn button:hover {
+  background-color: #331c15;
+}
+/* вторая секция */
+.container {
+  background-color: #110606;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 60% 39%;
+}
+
+.grid_t {
+  padding-left: 100px;
+  margin-top: 150px;
+}
+
+.hh1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.hh2 {
+  color: #ce7a60;
+  font-size: 35px;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.pp1 {
+  color: #b3b3b3;
+  font-size: 18px;
+  line-height: 36px;
+  padding-bottom: 20px;
+}
+
+.grid {
+  margin-top: 150px;
+  padding-left: 80px;
+}
+
+.hh3 {
+  color: #ce7a60;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.pp2 {
+  color: #b3b3b3;
+  line-height: 35px;
+  font-size: 17px;
+}
+
+.grid input {
+  border: solid 1px;
+  padding: 15px 120px 15px 40px;
+  border-color: #ce7a60;
+  color: #ce7a60;
+  background-color: #110606;
+  display: grid;
+}
+
+.inp {
+  margin-bottom: 15px;
+}
+
+.button6 {
+  margin-top: 10px;
+  padding: 15px 127px 15px 127px;
+  font-size: 17px;
+  background-color: #ce7a60;
+  border: none;
+  cursor: pointer;
+}
+
+.button6 a {
+  text-decoration: none;
+  color: #854d4d;
+  border: none;
+}
+
+.button6:hover {
+  background-color: white;
+}
+
+.wrap {
+  height: 600px;
+  background: radial-gradient(
+    circle closest-corner at center,
+    #000,
+    transparent
+  );
+  background-image: url("https://d329jirxh7znrd.cloudfront.net/bistro/wp-content/uploads/sites/376/2020/01/home-delicious.jpg");
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 3em 63px 82px 72px inset #110606;
+}
+
+.wrap__h1 {
+  text-align: center;
+  padding-top: 300px;
+  color: rgba(255, 255, 255, 0.32);
+  font-size: 60px;
+  letter-spacing: -4.5px;
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.three {
+  background-color: #110606;
+  height: auto;
+}
